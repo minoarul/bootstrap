@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.bar:hover {
+    background-color: #ffcc00;
+    transform: scale(1.07);
+    cursor: pointer;
+}
